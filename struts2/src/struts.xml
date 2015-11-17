@@ -30,5 +30,11 @@
 			<result name="upsuccess">/crud/upsuccess.jsp</result>
 		</action>
 	</package>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="user" class="mypack.User">
+		<result>/MyJsp.jsp</result>
+		</action>
+	</package>
+	<constant name="struts.action.extension" value="do"/>
 	<constant name="struts.configuration.xml.reload" value="true"/>
 </struts>

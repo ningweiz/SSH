@@ -28,6 +28,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    }
    
     %>
-    <jsp:include page="index.jsp" flush="true">
+    
   </body>
 </html>
