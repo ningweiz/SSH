@@ -13,7 +13,7 @@
 	<constant name="struts.configuration.xml.reload" value="true"/>
 	<constant name="struts.deMode" value="true"/>
 	<!-- 指定请求的后缀可以是.do或.action -->
-	<constant name="struts.action.wxtension" value="do,action"/>
+	<constant name="struts.action.extension" value="do,action"/>
 
 	  						
     <package name="crud" extends="struts-default" namespace="/crud">
